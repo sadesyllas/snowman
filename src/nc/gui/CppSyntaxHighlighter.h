@@ -130,7 +130,7 @@ public:
      * \param[in] parent Pointer to the parent object. Can be nullptr.
      * \param[in] formatting Valid pointer to the formatting information.
      */
-    explicit CppSyntaxHighlighter(QObject *parent, const CxxFormatting *formatting);
+    explicit CppSyntaxHighlighter(QObject *parent = nullptr);
 
     /**
      * Virtual destructor.
