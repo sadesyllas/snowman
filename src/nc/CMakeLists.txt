@@ -50,6 +50,8 @@ set(SOURCES
     common/Printable.h
     common/Range.h
     common/RangeClass.h
+    common/RangeTree.h
+    common/RangeTree.cpp
     common/SignalLogger.cpp
     common/SignalLogger.h
     common/SizedValue.h
@@ -228,6 +230,8 @@ set(SOURCES
     core/likec/CompilationUnit.cpp
     core/likec/CompilationUnit.h
     core/likec/Continue.h
+    core/likec/CxxDocument.h
+    core/likec/CxxDocument.cpp
     core/likec/Declaration.h
     core/likec/DefaultLabel.h
     core/likec/DoWhile.cpp
